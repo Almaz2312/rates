@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fxrates"
+version = "0.1.0"
+description = ""
+authors = ["Almaz Durusaliev <almazdurusaliev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.1"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
