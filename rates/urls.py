@@ -4,5 +4,5 @@ from rates.views import RubRateAPIView
 
 
 urlpatterns = [
-    path("rub-to-usd/", RubRateAPIView.as_view(), name="rub-tu-usd")
+    path("get-current-usd/", RubRateAPIView.as_view(), name="get-current-usd")
 ]
